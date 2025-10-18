@@ -54,4 +54,3 @@ try:
     st.plotly_chart(chart, use_container_width=True)
 except FileNotFoundError:
     st.info("Belum ada data yang tersimpan. Mulai isi mutabaah hari ini!")
-
